@@ -58,4 +58,42 @@ nav{
     flex-wrap: wrap;
     width: center;
 }
+.containermenu{
+    height: 100%;
+    width: 100%;
+    background-color: #f22626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: center;
+    position: absolute;
+}
+.divpizza{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: center;
+}
+.divpasta{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: center;
+}
+.divlazange{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: center;
+}
 
