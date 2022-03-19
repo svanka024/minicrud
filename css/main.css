@@ -14,7 +14,7 @@ main {
   height: 100%;
 }
 .container {
-  height: 700px;
+  height: 800px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -25,9 +25,9 @@ main {
 .div {
   height: max-content;
   width: 45%;
-  background-color: whitesmoke;
+  color: whitesmoke;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -44,7 +44,7 @@ main {
   width: center;
 }
 #bodyimg {
-  width: 50%;
+  width: 80%;
   border: none;
   border-radius: 20px;
   display: flex;
