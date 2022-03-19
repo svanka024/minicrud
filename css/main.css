@@ -72,7 +72,7 @@ main {
   width: center;
 }
 #pizzamenu {
-  width: cover;
+  width: 50%;
   height: cover;
   border: none;
   border-radius: 20px;
@@ -91,8 +91,8 @@ main {
   width: center;
 }
 #pastamenu {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   border: none;
   border-radius: 20px;
   display: flex;
@@ -110,12 +110,37 @@ main {
   width: center;
 }
 #lasagnamenu {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   border: none;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: center;
+}
+h1 {
+  font-family: "Noto Serif", serif;
+}
+h3 {
+  font-family: "Noto Serif", serif;
+}
+.containeritvlag{
+  height: 10px;
+  width: 100%;
+}
+.divgroen{
+  height: 100%;
+  width: 100%;
+  background-color: #019127;
+}
+.divwit{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.divrood{
+  height: 100%;
+  width: 100%;
+  background-color: #ba1a1a;
 }
