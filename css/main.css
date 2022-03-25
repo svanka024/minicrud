@@ -137,3 +137,24 @@ h3 {
   width: 100%;
   background-color: #ba1a1a;
 }
+.containermenuheader {
+  height: 1700px;
+  width: 100%;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: center;
+  position: relative;
+}
+.divmenukaartpizza {
+  height: 160git 0px;
+  width: 90%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: center;
+}
