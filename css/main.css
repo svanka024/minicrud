@@ -148,7 +148,7 @@ h3 {
   position: relative;
 }
 .divmenukaartpizza {
-  height: 160git 0px;
+  height: 1600px;
   width: 90%;
   color: white;
   display: flex;
@@ -157,4 +157,13 @@ h3 {
   align-items: center;
   flex-wrap: wrap;
   width: center;
+}
+.pizza1kleur{
+  color: #019127;
+}
+.pasta1kleur{
+  color: #d4ccb8;
+}
+.lassagna1kleur{
+  color: #ba1a1a;
 }
