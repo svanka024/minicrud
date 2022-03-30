@@ -167,3 +167,14 @@ h3 {
 .lassagna1kleur{
   color: #ba1a1a;
 }
+.prijzenmenukaart {
+  height: 1700px;
+  width: 90%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: center;
+}
