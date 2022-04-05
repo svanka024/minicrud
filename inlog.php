@@ -1,6 +1,5 @@
 <?php 
 include_once "includes/connection.php";
- 
 $sql = "SELECT * FROM admin WHERE username = :username AND password = :password";
 $stmt = $conn->prepare($sql);
 $stmt->bindParam(":username", $_POST['username']);
@@ -9,19 +8,15 @@ $stmt->execute();
 $result = $stmt->fetchAll();
 var_dump($result);
 if(count($result) > 0){
-    echo "username gevonden";
+    $_SESSION["username"] = $_POST['username'];
+    header("location: admin.php");
 } else {
     echo "username niet gevonden";
 }
-//var_dump($_POST);
- 
- ;
- 
+
 ?>
- 
 <form action="login.php" method="post">
     username <input type="text" name="username" value="" /><br />
     password <input type="text" name="password" value=""><br />
     <input type="submit" value="login" />
- 
 </form>
