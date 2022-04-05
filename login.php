@@ -1,9 +1,9 @@
 <?php 
 include_once "includes/connection.php";
-$sql = "SELECT * FROM admin WHERE username = :username AND password = :password";
+$sql = "SELECT * FROM admin WHERE gebruikersnaam = :gebruikersnaam AND password = :password";
 $stmt = $conn->prepare($sql);
-$stmt->bindParam(":username", $_POST['username']);
-$stmt->bindParam(":password", $_POST['password']);
+$stmt->bindParam(":gebruikersnaam", $_POST['gebruikersnaam']);
+$stmt->bindParam(":wachtwoord", $_POST['password']);
 $stmt->execute();
 $result = $stmt->fetchAll();
 var_dump($result);
