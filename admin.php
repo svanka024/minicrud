@@ -11,6 +11,17 @@ if(isset($_SESSION['gebruikersnaam'])){
     header("location: login.php");
 
     }
+
+    $sql = "SELECT * FROM adminlogin";
+    $stmt = $conn->prepare($sql);
+    $stmt->execute();
+    $result = $stmt->fetchAll();
+
+    
+    foreach($result as $re){
+        echo #re
+    }
+
     //$stmt->debugDumpParams();
 
     $result = $stmt->fetchAll();

@@ -38,50 +38,14 @@
       <div class="containermenuheader">
         <div class="divmenukaartpizza">
           <h1 class="pizza1kleur">pizza's</h1>
-          <h1>pizza hawaii</h1>
-          <h3>tomatensaus, ham, kaas, mozzarella</h3>
-          <h1>pizza salami</h1>
-          <h3>tomatensaus, mozzarella, salami</h3>
-          <h1>pizza tonno</h1>
-          <h3>tomatensaus, tonijn, ui, mozzarella</h3>
-          <h1>pizza bbq</h1>
-          <h3>bbqsaus, mozzarella, bacon, ham, kip, gehakt</h3>
-          <h1>pizza vegan</h1>
-          <h3>tomatensaus, vegan kaas, pizza kruiden</h3>
+
           <h1 class="pasta1kleur">pasta's</h1>
-          <h1>pasta mario</h1>
-          <h3>
-            italiaanse pasta, tomatensaus, groenten, pasta kruiden, gehakt
-          </h3>
-          <h1>pasta spinazie</h1>
-          <h3>italiaanse pasta, tomatensaus, spinazie, gehakt</h3>
-          <h1>pasta zalm</h1>
-          <h3>italiaanse pasta, tomatensaus, zalm, garnalen</h3>
+
           <h1 class="lassagna1kleur">lassagna's</h1>
-          <h1>lassagna mario</h1>
-          <h3>italiaanse lassagna bladen, tomatensaus, groenten, gehakt</h3>
-          <h1>lassagna spinazie</h1>
-          <h3>italiaanse lassagna bladen, tomatensaus, spinazie, gehakt</h3>
-          <h1>lassagna zalm</h1>
-          <h3>italiaanse lassagna bladen, tomatensaus, zalm, garnalen</h3>
+
         </div>
         <div class="prijzenmenukaart">
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-          <h1>10,00</h1>
-        </div>
+
       </div>
       <div class="containeritvlag">
         <div class="divgroen"></div>

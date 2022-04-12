@@ -1,17 +1,22 @@
 <?php 
 include_once "connection.php";
-$sql = "SELECT * FROM admin WHERE gebruikersnaam = :gebruikersnaam AND password = :password";
-$stmt = $conn->prepare($sql);
-$stmt->bindParam(":gebruikersnaam", $_POST['gebruikersnaam']);
-$stmt->bindParam(":wachtwoord", $_POST['password']);
-//$stmt->execute();
-$result = $stmt->fetchAll();
-var_dump($result);
-if(count($result) > 0){
-    $_SESSION["username"] = $_POST['username'];
-    header("location: admin.php");
-} else {
-    echo "gebruikersnaam niet gevonden";
+//var_dump($_POST);
+if(isset($_POST['gebruikersnaam'])){
+    $sql = "SELECT * FROM adminlogin WHERE gebruikersnaam = :gebruikersnaam AND wachtwoord = :password";
+    $stmt = $conn->prepare($sql);
+    $stmt->bindParam(":gebruikersnaam", $_POST['gebruikersnaam']);
+    $stmt->bindParam(":password", $_POST['wachtwoord']);
+    $stmt->execute();
+    //$stmt->debugDumpParams();
+    $result = $stmt->fetchAll();
+    //var_dump($result);
+    if(count($result) > 0){
+        $_SESSION["gebruikersnaam"] = $_POST['gebruikersnaam'];
+        
+        header("location: admin.php");
+    } else {
+        echo "gebruikersnaam niet gevonden";
+    }
 }
 
 ?>
