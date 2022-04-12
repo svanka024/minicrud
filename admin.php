@@ -1,10 +1,20 @@
 <?php
-include_once "includes/connection.php";
+
+include_once "connection.php";
 
 if(isset($_SESSION['gebruikersnaam'])){
-    echo "welkom" . $_SESSION['gebruikersnaam'];
-} else {
-    header("locate: login.php");
-} ?>
 
-hello svanka
+    echo "welcome " . $_SESSION['gebruikersnaam'];
+
+}  else {
+
+    header("location: login.php");
+
+    }
+    //$stmt->debugDumpParams();
+
+    $result = $stmt->fetchAll();
+
+    var_dump($result);
+
+?>
