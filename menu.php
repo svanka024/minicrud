@@ -17,8 +17,8 @@
     <header></header>
     <main>
       <nav>
-        <a href="index.html">home</a>
-        <a href="menu.html">menu</a>
+        <a href="index.php">home</a>
+        <a href="menu.php">menu</a>
       </nav>
       <div class="containeritvlag">
         <div class="divgroen"></div>
@@ -36,15 +36,10 @@
         <div class="divrood"></div>
       </div>
       <div class="containermenuheader">
-        <div class="divmenukaartpizza">
-          <h1 class="pizza1kleur">pizza's</h1>
-
-          <h1 class="pasta1kleur">pasta's</h1>
-
-          <h1 class="lassagna1kleur">lassagna's</h1>
-
+        <div class="divmenu">
+          
         </div>
-        <div class="prijzenmenukaart">
+        <div class="divnaammenu">
 
       </div>
       <div class="containeritvlag">

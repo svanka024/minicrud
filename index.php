@@ -17,8 +17,8 @@
     <header></header>
     <main>
       <nav>
-        <a href="index.html">home</a>
-        <a href="menu.html">menu</a>
+        <a href="index.php">home</a>
+        <a href="menu.php">menu</a>
       </nav>
       <div class="containeritvlag">
         <div class="divgroen"></div>
