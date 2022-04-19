@@ -147,33 +147,10 @@ h3 {
   width: center;
   position: relative;
 }
-.divmenu {
-  height: 500px;
+.divfotomenu {
+  height: 300px;
   width: 50%;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  border-color: plum;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  width: center;
-}
-.pizza1kleur {
-  color: #019127;
-}
-.pasta1kleur {
-  color: #d4ccb8;
-}
-.lassagna1kleur {
-  color: #ba1a1a;
-}
-.divnaammenu {
-  height: 1600px;
-  width: 90%;
-  color: white;
+  background-color: #019127;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
