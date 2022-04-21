@@ -11,6 +11,7 @@ if(isset($_POST['gebruikersnaam'])){
     $result = $stmt->fetchAll();
     //var_dump($result);
     if(count($result) > 0){
+        session_start();
         $_SESSION["gebruikersnaam"] = $_POST['gebruikersnaam'];
         
         header("location: admin.php");
@@ -21,7 +22,7 @@ if(isset($_POST['gebruikersnaam'])){
 
 ?>
 <form action="login.php" method="post">
-    gebruikersnaam <input type="text" name="gebruikersnaam" value="" /><br />
+    gebruikersnaam <input type="text" name="gebruikersnaam" value=""><br />
     wachtwoord <input type="text" name="wachtwoord" value=""><br />
     <input type="submit" value="login" />
 </form>

@@ -1,7 +1,6 @@
 <?php
 
 include_once "connection.php";
-
 if(isset($_SESSION['gebruikersnaam'])){
 
     echo "welcome " . $_SESSION['gebruikersnaam'];
@@ -12,20 +11,18 @@ if(isset($_SESSION['gebruikersnaam'])){
 
     }
 
-    $sql = "SELECT * FROM adminlogin";
-    $stmt = $conn->prepare($sql);
-    $stmt->execute();
-    $result = $stmt->fetchAll();
+    // $sql = "SELECT * FROM adminlogin";
+    // $stmt = $conn->prepare($sql);
+    // $stmt->execute();
+    // $result = $stmt->fetchAll();
 
     
-    foreach($result as $re){
-        echo #re
-    }
+    // foreach($result as $re){
+    //     echo $re['gebruikersnaam'];
+    // }
+    // //$stmt->debugDumpParams();
 
-    //$stmt->debugDumpParams();
+    // $result = $stmt->fetchAll();
 
-    $result = $stmt->fetchAll();
-
-    var_dump($result);
-
+    // var_dump($result);
 ?>
