@@ -168,7 +168,7 @@ h3 {
 .menufoto {
   height: 70%;
   width: 100%;
-  background-color: #ba1a1a;
+  background-color: white;
 }
 .menunaam {
   height: 30%;
@@ -178,7 +178,7 @@ h3 {
 .menuprijs {
   height: 30%;
   width: 50%;
-  background-color: black;
+  background-color: white;
 }
 /* footer*/
 .sticky-footer{
