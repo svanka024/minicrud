@@ -14,15 +14,34 @@ if(isset($_SESSION['gebruikersnaam'])){
     // $sql = "SELECT * FROM adminlogin";
     // $stmt = $conn->prepare($sql);
     // $stmt->execute();
-    // $result = $stmt->fetchAll();
+$result = $stmt->fetchAll();?>
 
-    
-    // foreach($result as $re){
-    //     echo $re['gebruikersnaam'];
-    // }
-    // //$stmt->debugDumpParams();
+<table>
 
-    // $result = $stmt->fetchAll();
+<tr>
+    <th>naam</th>
+    <th>prijs</th>
+    <th>acties</th>
+    <th>
+        <a href="insert.php">toevoegen</a>
+    </th>
+</tr>
 
-    // var_dump($result);
+<?php  
+foreach($result as $re){?>
+    <tr>
+
+        <td><?php echo $res['naam'];?></td>
+
+        <td><?php echo $res['prijs'];?></td>
+        <td>
+            <a href="edit.php?id=<?php echo $res["ID"];?>">update</a>
+
+            <a href="delete.php?id=<?php echo $res["ID"];?>">delete</a>
+
+        </td>
+    </tr>
+<?php
+}
 ?>
+</table>

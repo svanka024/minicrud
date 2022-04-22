@@ -6,7 +6,7 @@ if(isset($_SESSION['gebruikersnaam'] == true)){
     header("location: adminlogin.php")
 }
 
-$sql = "DELETE FROM album WHERE ID=:id;";
+$sql = "DELETE FROM album WHERE ID=:id;"; 
 $stmt = $conn->prepare($sql);
 $stmt->binparam(':id', $_GET);
 ?>
