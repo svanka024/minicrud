@@ -147,6 +147,14 @@ h3 {
   width: center;
   position: relative;
 }
+.row1 {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .gerechtmap {
   height: 250px;
   width: 250px;
@@ -156,6 +164,21 @@ h3 {
   align-items: center;
   flex-wrap: wrap;
   width: center;
+}
+.menufoto {
+  height: 70%;
+  width: 100%;
+  background-color: #ba1a1a;
+}
+.menunaam {
+  height: 30%;
+  width: 50%;
+  background-color: white;
+}
+.menuprijs {
+  height: 30%;
+  width: 50%;
+  background-color: black;
 }
 /* footer*/
 .sticky-footer{
